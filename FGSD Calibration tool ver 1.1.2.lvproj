@@ -319,30 +319,32 @@
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FGSD Calibration tool ver 1.1.2" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{407924BE-6135-47E3-A6BF-780D8A4152FE}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{4FB9FC11-7E58-4751-8094-7B5D893E1DAD}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{DCBDFEC6-FD34-4165-BABC-503BB42FED1B}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{0EF557E3-B731-47EB-B077-A75D73A159E8}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_waitDebugging" Type="Bool">true</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{2A58D1D0-0BDE-406B-A09E-6E95F2643ACA}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{8C80E3BC-CF8E-4B5D-80BB-694979F3D198}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">FGSD Calibration tool ver 1.1.2</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../FG---CO-calibration/builds</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{275CB421-DE88-4F6C-A1DB-C2B7F5608114}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{230E8948-159E-4680-81EA-FFFE5D057BB7}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">FGSD Calibration tool ver 1.1.2.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../FG---CO-calibration/builds/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../FG---CO-calibration/builds/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0EA431A5-3A5F-4BBC-B114-6286BDDBB990}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6B32AB3A-9FBF-432B-B35F-1E03947311AE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FGSD Calibration tool ver 1.1.2.vi</Property>
@@ -358,7 +360,7 @@
 				<Property Name="TgtF_internalName" Type="Str">FGSD Calibration tool ver 1.1.2</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Mountz Inc</Property>
 				<Property Name="TgtF_productName" Type="Str">FGSD Calibration tool ver 1.1.2</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{79E31EF9-1159-4D5B-8399-78C123887CAE}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{37DED7BC-823A-4AD7-8EE7-212BF22B7232}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">FGSD Calibration tool ver 1.1.2.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
