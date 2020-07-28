@@ -310,7 +310,7 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Motor Control.vi" Type="VI" URL="../../../Users/phing/Mountz/EMP Site - Documents/Staff/Phi Ngo/Calibration/Motor Control.vi"/>
+			<Item Name="Motor Control.vi" Type="VI" URL="../../../Users/EMPShared/Mountz/EMP Site - Documents/Staff/Phi Ngo/Calibration/Motor Control.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -319,67 +319,32 @@
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FGSD Calibration tool ver 1.1.2" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{184DE648-2E3B-436C-9EE2-A9C553CEAC5A}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{CFE2A054-A8BF-4BA3-AE43-CBE58D648F93}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{1D7E83C5-75A5-486E-B9E4-3A705BEDC11E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{71E73B71-5A8F-4D25-A151-CEEB7F73D310}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_waitDebugging" Type="Bool">true</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{5C81CAB0-19CF-4C67-8C1B-A79BB25DF358}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{D76731BC-58D5-4A63-8455-4995F1FD0C3C}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">FGSD Calibration tool ver 1.1.2</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/FGSD Calibration tool ver 1.1.2</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{5C5C2A9A-3CDD-44A7-A113-625E78491455}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{9DDCDA42-F421-4368-B067-943A703F811F}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">FGSD Calibration 1_1_2.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/FGSD Calibration tool ver 1.1.2/FGSD Calibration 1_1_2.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">FGSD Calibration tool ver 1.1.2.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/FGSD Calibration tool ver 1.1.2/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[0]" Type="Str">{20C3B274-5B79-4835-990C-235E3DD5DE72}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[1]" Type="Str">{57D4292D-5710-4F69-9B57-5B4FB06721A4}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[10]" Type="Str">{1584AEFF-BF00-4CE6-AB39-D4777B6A7307}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[11]" Type="Str">{0952F58D-E975-43BA-ACD2-52390C53E0F3}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[12]" Type="Str">{A8E20392-468F-4290-8303-038EBEAD879E}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[13]" Type="Str">{C12F6A89-44AF-48A4-BEC2-E203A8F9A567}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[14]" Type="Str">{05401524-9C55-4F32-91B3-A68705FCD284}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[15]" Type="Str">{97ADBDA4-E816-4B54-BACF-A7166011905C}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[16]" Type="Str">{DD8BF0E8-B531-49C8-8BE3-EA06661F69DD}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[2]" Type="Str">{EA9A2502-BAE4-43A4-8B09-E9E0BBD37B89}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[3]" Type="Str">{260D2090-B5FC-496E-BADE-A8CF4B3C27D7}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[4]" Type="Str">{DDA16674-5416-4627-9719-8540A1A73A2A}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[5]" Type="Str">{9D9CE958-FED3-460D-A4B4-5FADEE57070A}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[6]" Type="Str">{42C3E58C-D955-4929-A84A-E2B11AF08579}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[7]" Type="Str">{2C5CA0A2-B7FF-4881-9F21-66E02F32FA16}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[8]" Type="Str">{F7106EC8-97A7-4EB6-8DB7-2DFEA2E2A484}</Property>
-				<Property Name="Exe_actXinfo_enumCLSID[9]" Type="Str">{465B0EC5-B90E-41C8-B360-D9686BF1F543}</Property>
-				<Property Name="Exe_actXinfo_enumCLSIDsCount" Type="Int">17</Property>
-				<Property Name="Exe_actXinfo_majorVersion" Type="Int">5</Property>
-				<Property Name="Exe_actXinfo_minorVersion" Type="Int">5</Property>
-				<Property Name="Exe_actXinfo_objCLSID[0]" Type="Str">{5468DF10-D4E5-4F45-A46B-0D491DC824A4}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[1]" Type="Str">{2A612DE8-821A-4DBD-8B83-5A53C2F6C656}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[10]" Type="Str">{29EEAC96-13BA-4E1B-B051-80FBC1E76029}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[11]" Type="Str">{0AEDDDF9-08C3-48E1-AE3D-D3E5F729D2B8}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[12]" Type="Str">{FDA922F5-6CC3-4DA3-AE50-6405898BBDFF}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[13]" Type="Str">{B9C132D3-21F2-4C7A-8E60-DCF1D804518A}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[2]" Type="Str">{C00D16B7-5AC5-41DD-BD4F-21F2618FC00F}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[3]" Type="Str">{F23EB7C3-99B2-4EF8-9949-933751476600}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[4]" Type="Str">{387FCD26-021A-48C5-8CA6-ABE594BAB811}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[5]" Type="Str">{1DC13631-6E5B-4A2D-BE64-96A09D0F088F}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[6]" Type="Str">{D50CEEA3-72CF-4F67-983F-57564D296DA2}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[7]" Type="Str">{2A7224E3-94E7-4DE8-85A4-3445D556C63C}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[8]" Type="Str">{4AA556CF-0D40-4AF0-A74C-3EDC5A69435B}</Property>
-				<Property Name="Exe_actXinfo_objCLSID[9]" Type="Str">{60A08DE1-5663-490F-B96C-11D31C6560D8}</Property>
-				<Property Name="Exe_actXinfo_objCLSIDsCount" Type="Int">14</Property>
-				<Property Name="Exe_actXinfo_progIDPrefix" Type="Str">FGSDCalibration112</Property>
-				<Property Name="Exe_actXServerName" Type="Str">FGSDCalibration112</Property>
-				<Property Name="Exe_actXServerNameGUID" Type="Str">{E259972A-9B2C-4D70-905B-A49C0F86CD89}</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C015E55C-F3DE-4E26-9222-3EC9447F262D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{91A01CDA-D9E3-4FB4-B663-8D02880C598A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FGSD Calibration tool ver 1.1.2.vi</Property>
@@ -395,8 +360,8 @@
 				<Property Name="TgtF_internalName" Type="Str">FGSD Calibration tool ver 1.1.2</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Mountz Inc</Property>
 				<Property Name="TgtF_productName" Type="Str">FGSD Calibration tool ver 1.1.2</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{280EDA9F-413A-4182-999A-26B35100382E}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">FGSD Calibration 1_1_2.exe</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{F62B3383-19E7-4713-AD16-1CEEB684DE03}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">FGSD Calibration tool ver 1.1.2.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
