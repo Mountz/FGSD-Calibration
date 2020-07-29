@@ -319,12 +319,12 @@
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FGSD Calibration tool ver 1.1.2" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{0A9E620F-8C3C-405C-825B-73F60A2300EF}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{DD2DF194-F5C4-423C-80C2-1A944AB6D651}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{4B3A3CF3-4489-4024-A8E6-35A8AA585826}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{5454F278-CA6B-4F92-88C0-3667BD50F09C}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_waitDebugging" Type="Bool">true</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{9C3653B3-6D80-491E-BBD4-FB8BBF69721F}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{BEECC866-F7F9-4741-AC70-49B38C17B644}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">FGSD Calibration tool ver 1.1.2</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -332,7 +332,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{FFDDDB64-241F-46A5-B8EB-F5298E04CF41}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{A90D4858-0CCF-4BEE-A8F6-9AD23EB5C75C}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">FGSD Calibration tool ver 1.1.2.exe</Property>
@@ -344,7 +344,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4653C6AB-1DCD-49F5-B3C6-CCCEB3E498A7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{520CCACF-7CEA-4E50-872C-AFE25B327780}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FGSD Calibration tool ver 1.1.2.vi</Property>
@@ -360,149 +360,8 @@
 				<Property Name="TgtF_internalName" Type="Str">FGSD Calibration tool ver 1.1.2</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Mountz Inc</Property>
 				<Property Name="TgtF_productName" Type="Str">FGSD Calibration tool ver 1.1.2</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{F2839EA6-B590-4304-9273-E394EB377040}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{B15438B2-6124-4A32-A668-64146747D9BD}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">FGSD Calibration tool ver 1.1.2.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="FGSD Calibration tool ver 1.1.22" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{C1CE3182-E66F-4325-9857-60D05A03D309}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{AF4A1501-121F-4723-BFAA-4C9D82EAE078}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_waitDebugging" Type="Bool">true</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{FA6F0D54-642B-4115-983D-7E885FAB806A}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">FGSD Calibration tool ver 1.1.22</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{C67078B4-9259-4179-B073-AA642AAFDF9C}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">FGSD Calibration tool ver 1.1.22.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/FGSD Calibration tool ver 1.1.22.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4653C6AB-1DCD-49F5-B3C6-CCCEB3E498A7}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FGSD Calibration tool ver 1.1.2.vi</Property>
-				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">Mountz Inc</Property>
-				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">FGSD Calibration tool ver 1.1.22</Property>
-				<Property Name="TgtF_internalName" Type="Str">FGSD Calibration tool ver 1.1.22</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Mountz Inc</Property>
-				<Property Name="TgtF_productName" Type="Str">FGSD Calibration tool ver 1.1.22</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{93DFF1DF-3AEE-45C5-B6F5-68F4950AB4F4}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">FGSD Calibration tool ver 1.1.22.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="FGSD Calibration tool ver 1.1.23" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{E644704F-088B-4BFB-B741-100AC504725F}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{56839071-5EC3-42F9-9ADE-9A08A097E378}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_waitDebugging" Type="Bool">true</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{AC8D7866-B656-435A-B3FB-95683B739073}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">FGSD Calibration tool ver 1.1.23</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{176472D6-C8D6-424E-B329-5A0DADEE128C}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">FGSD Calibration tool ver 1.1.23.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/FGSD Calibration tool ver 1.1.23.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AB38BBE4-5CAF-4144-A96E-823B20613A5A}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FGSD Calibration tool ver 1.1.2.vi</Property>
-				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">Mountz Inc</Property>
-				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">FGSD Calibration tool ver 1.1.23</Property>
-				<Property Name="TgtF_internalName" Type="Str">FGSD Calibration tool ver 1.1.23</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Mountz Inc</Property>
-				<Property Name="TgtF_productName" Type="Str">FGSD Calibration tool ver 1.1.23</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{70101A33-C649-46E2-A526-A75AFF582AC9}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">FGSD Calibration tool ver 1.1.23.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="FGSD Calibration tool ver 1.1.24" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{0648CD48-3C71-4291-84A1-ED28EDF25402}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{29BF0792-4013-4A40-869C-4166D66F619D}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_waitDebugging" Type="Bool">true</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{449495CF-FE00-48A5-8F7C-ACB4443A7A3F}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">FGSD Calibration tool ver 1.1.24</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{DE0D9D1F-9894-4B86-8443-EC2C46F82563}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">FGSD Calibration tool ver 1.1.24.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/FGSD Calibration tool ver 1.1.24.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E4941AF1-8740-438E-AF42-ED5372188549}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FGSD Calibration tool ver 1.1.2.vi</Property>
-				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">Mountz Inc</Property>
-				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">FGSD Calibration tool ver 1.1.24</Property>
-				<Property Name="TgtF_internalName" Type="Str">FGSD Calibration tool ver 1.1.24</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Mountz Inc</Property>
-				<Property Name="TgtF_productName" Type="Str">FGSD Calibration tool ver 1.1.24</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{FBF4BF63-7710-46FE-90E0-461645B805B4}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">FGSD Calibration tool ver 1.1.24.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
